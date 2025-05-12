@@ -25,7 +25,7 @@ import WishListContext from './Context/WishListContext/WishListContext';
 
 
 
-const final_project = createHashRouter ( [
+const final_project = createBrowserRouter ( [
   { path: '' , element: <Layout/> , children: [
   { index:true , element:<ProtectedRoute>
     <Home/>
@@ -81,7 +81,7 @@ export default function App() {
 
       {/* <QueryClientProvider client={{myQueryClient }}> */}
 
-       <RouterProvider router={final_project}/>
+       <RouterProvider router={final_project} />
        <Toaster/>
     
       {/* </QueryClientProvider> */}
