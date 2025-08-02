@@ -35,7 +35,7 @@ a , a:hover{
     transform: translateY(100%);
     opacity: 0;
 }
-.product:hover .btn 
+.product:hover .btn  
 {
     opacity: 1;
     transform: translateY(0%);

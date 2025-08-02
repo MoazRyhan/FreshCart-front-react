@@ -38,7 +38,7 @@ const final_project = createBrowserRouter ( [
   { path:"cart" , element:<ProtectedRoute>
     <Cart/>
   </ProtectedRoute> },
-  { path: "products" , element:<ProtectedRoute>
+  { path: "products" , element:<ProtectedRoute> 
     <Products/>
   </ProtectedRoute> },
     { path: "productDetails/:id" , element:<ProtectedRoute>

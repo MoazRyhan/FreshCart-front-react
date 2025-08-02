@@ -34,7 +34,6 @@ const { getUserCart } = useContext(cartContextSend)
 
 
 
-
  
 
    async function  registerUsers(uservalue) {
